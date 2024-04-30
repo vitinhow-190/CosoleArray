@@ -10,12 +10,12 @@ namespace CosoleArray
     {
         static void Main(string[] args)
         {
-            String[] nome = { "joão", "pedro", "maria" };
+            String[] mes = { "sim", "Janeiro", "Fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro" };
 
-            Console.WriteLine("Digite um numero de 0 a 2: ");
+            Console.WriteLine("Digite um numero de 1 a 12: ");
             int i = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("O nome selecionado foi: " + nome[i]);
+            Console.WriteLine("O nome selecionado foi: " + mes[i]);
 
             Console.ReadKey();
 
